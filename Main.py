@@ -5,7 +5,7 @@ from LLphone import number
 from phonenumbers 
 import geocoder
 
-pepnumbers=phonenumbers.parse(number)
+pepnumber=phonenumbers.parse(number)
 location=geocoder.description_for_number(pepnumber,"en')
 print(location)                                
 
